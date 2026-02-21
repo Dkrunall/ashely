@@ -10,6 +10,9 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-anton: var(--font-anton);
+  --color-primary: #DC2626;
+  /* Red Accent */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,8 +22,37 @@
   }
 }
 
+/* Force dark mode default for now or stick to system? User wanted "DJ Ashely website", usually dark. I'll make default dark. */
+:root {
+  --background: #050505;
+  --foreground: #fafafa;
+  --primary: #DC2626;
+  /* Red Accent */
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
 }
