@@ -22,8 +22,8 @@ const anton = Anton({
 });
 
 export const metadata: Metadata = {
-  title: "DJ Ashely | Global Tour & Booking",
-  description: "Official website for DJ Ashely. Tour dates, booking, tech rider, and more.",
+  title: "ASHLEY ALVARES | Official Website",
+  description: "Experience the dynamic mixes and electrifying performances of DJ Ashley Alvares. Explore latest releases, tour dates, and booking information.",
 };
 
 export default function RootLayout({
