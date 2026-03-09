@@ -39,14 +39,14 @@ export default function Navbar() {
                 className="flex flex-col gap-2 md:gap-3"
             >
                 <div className="flex gap-2 md:gap-3">
-                    <Link href="#about" className="nav-pill bg-primary text-black px-3 py-1.5 md:px-5 md:py-2 rounded-full hover:bg-white transition-colors">ABOUT</Link>
-                    <Link href="#tour-map" className="nav-pill bg-primary text-black px-3 py-1.5 md:px-5 md:py-2 rounded-full hover:bg-white transition-colors">VENUES</Link>
-                    <Link href="#team" className="nav-pill bg-primary text-black px-3 py-1.5 md:px-5 md:py-2 rounded-full hover:bg-white transition-colors">TEAM</Link>
+                    <Link href="/about" className="nav-pill bg-primary text-black px-3 py-1.5 md:px-5 md:py-2 rounded-full hover:bg-white transition-colors">ABOUT</Link>
+                    <Link href="/genres" className="nav-pill bg-primary text-black px-3 py-1.5 md:px-5 md:py-2 rounded-full hover:bg-white transition-colors">GENRES</Link>
+                    <Link href="/releases" className="nav-pill bg-primary text-black px-3 py-1.5 md:px-5 md:py-2 rounded-full hover:bg-white transition-colors">RELEASES</Link>
                 </div>
                 <div className="flex gap-2 md:gap-3">
-                    <Link href="#services" className="nav-pill bg-primary text-black px-3 py-1.5 md:px-5 md:py-2 rounded-full hover:bg-white transition-colors">SERVICES</Link>
-                    <Link href="#contact" className="nav-pill bg-primary text-black px-3 py-1.5 md:px-5 md:py-2 rounded-full hover:bg-white transition-colors">CONTACT</Link>
-                    <Link href="#why" className="nav-pill bg-primary text-black px-3 py-1.5 md:px-5 md:py-2 rounded-full hover:bg-white transition-colors">WHY</Link>
+                    <Link href="/tour" className="nav-pill bg-primary text-black px-3 py-1.5 md:px-5 md:py-2 rounded-full hover:bg-white transition-colors">TOUR</Link>
+                    <Link href="/technical" className="nav-pill bg-primary text-black px-3 py-1.5 md:px-5 md:py-2 rounded-full hover:bg-white transition-colors">RIDER</Link>
+                    <Link href="/contact" className="nav-pill bg-primary text-black px-3 py-1.5 md:px-5 md:py-2 rounded-full hover:bg-white transition-colors">CONTACT</Link>
                 </div>
             </motion.div>
 
